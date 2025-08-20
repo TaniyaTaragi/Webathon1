@@ -49,6 +49,7 @@ The site should be:
 Clone the repository:
 bash
 git clone https://github.com/TaniyaTaragi/Webathon1.git
+
 Open index.html in your browser to explore the site.
 
 ## 📌 Commit History
@@ -60,10 +61,6 @@ Uploaded Files – Initial commit with base project setup (Webathon submission)
  Theme: Design & Develop Nirvana Tech Fest 2025 Website
  Organized by: Tech Geeks Club x School of Computing
 
-## Collaborators
-
-@TaniyaTaragi
-@dikshakunwar
 
 
 ## License
