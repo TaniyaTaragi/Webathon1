@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+#first {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-landing {
+  color: linear-gradient(135deg, #9a368b, #e6afe0, #b645b6);
+  display: flex;
+  font-size: 50px;
+  font-weight: bolder;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Boldonse", system-ui;
+  animation: slideUp 1.5s ease forwards;
+}
+@media (max-width: 995px) {
+  .first-landing {
+    font-size: medium;
+  }
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
